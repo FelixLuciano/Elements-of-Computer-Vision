@@ -1,6 +1,6 @@
 # Elements of Computer Vision
 
-[Prof. Antonio Selvatici](http://lattes.cnpq.br/0713023280265201), [Insper](https://github.com/Insper), 2021.
+[Ph.D. Antonio Selvatici](http://lattes.cnpq.br/0713023280265201), [Insper](https://github.com/Insper), 2021.
 
 
 ## Computer architecture of robots and the perception loop
@@ -24,7 +24,7 @@
 Repository with programs developed in the subject "Computational Robotics" throughout the second semester of 2021.
 
 
-## course bibliography
+## Course Bibliography
 
 - **SZELISKI**, Richard; GRIES, David; SCHNEIDER, Fred B. (Ed.). , Computer Vision: Algorithms and Applications, ª ed., Springer, 2011, ISBN 6874148
 - **NORVIG**, P.; RUSSELL, S., Inteligência Artificial, 3ª ed., Campus Elsevier, 2013, ISBN 65478
