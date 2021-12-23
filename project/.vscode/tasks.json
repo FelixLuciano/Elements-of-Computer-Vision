@@ -1,0 +1,95 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "▶️ Rosrun project",
+      "type": "shell",
+      "command": "rosrun projeto main.py",
+      "presentation": {
+        "clear": true,
+        "close": false
+      }
+    },
+    {
+      "label": "📦 Executa Catkin Make",
+      "type": "shell",
+      "command": "cd ~/catkin_ws/ && catkin_make",
+      "presentation": {
+        "clear": true,
+        "close": true
+      }
+    },
+    {
+      "label": "📃 Abre .bashrc",
+      "type": "shell",
+      "command": "code ~/.bashrc",
+      "presentation": {
+        "reveal": "silent",
+        "clear": true,
+        "close": true
+      }
+    },
+    {
+      "label": "📃 Abre robotica.sh",
+      "type": "shell",
+      "command": "code ~/robotica.sh",
+      "presentation": {
+        "reveal": "silent",
+        "clear": true,
+        "close": true
+      }
+    },
+    {
+      "label": "🖥️ Inicializa my_simulation",
+      "type": "shell",
+      "command": "roslaunch my_simulation trevo.launch",
+      "presentation": {
+        "reveal": "silent",
+        "clear": true,
+        "close": true
+      }
+    },
+    {
+      "label": "🖥️ Inicializa mybot_description",
+      "type": "shell",
+      "command": "roslaunch mybot_description mybot_control2.launch",
+      "presentation": {
+        "reveal": "silent",
+        "clear": true,
+        "close": true
+      }
+    },
+    {
+      "label": "🖥️ Inicializa rQT Image View",
+      "type": "shell",
+      "command": "rqt_image_view",
+      "presentation": {
+        "reveal": "silent",
+        "clear": true,
+        "close": true
+      }
+    },
+    {
+      "label": "🖥️ Inicializa TeleOP",
+      "type": "shell",
+      "command": "roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch",
+      "presentation": {
+        "focus": true,
+        "clear": true,
+        "close": true
+      }
+    },
+    {
+      "label": "🖥️ Inicializa RViz",
+      "type": "shell",
+      "command": "roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch",
+      "presentation": {
+        "reveal": "silent",
+        "clear": true,
+        "close": true
+      }
+    }
+  ]
+}
