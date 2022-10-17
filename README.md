@@ -1,6 +1,6 @@
-# Elements of Computer Vision
+[Antonio Selvatici, Ph.D](http://lattes.cnpq.br/0713023280265201). Robótica Computacional. [Insper](https://github.com/Insper), 2021.
 
-[Ph.D. Antonio Selvatici](http://lattes.cnpq.br/0713023280265201), [Insper](https://github.com/Insper), 2021.
+# Elements of Computer Vision
 
 
 ## Computer architecture of robots and the perception loop
